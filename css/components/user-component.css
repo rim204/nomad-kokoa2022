@@ -1,0 +1,222 @@
+.main__List {
+    margin: 0 var(--sideSpace);
+}
+
+.user__component-profile {
+    display: flex;
+    font-weight: bolder;
+    align-items: center;
+    padding-bottom: 10px;    
+    border-bottom: 1px solid var(--kakaoGrey);
+    margin-bottom: 10px;
+}
+
+.user__component-profile img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 30%;
+}
+
+.user__component-channel {
+    display: flex;
+    justify-content: space-between; 
+    font-size: 13px;
+    color:var(--kakaoGrey);
+    margin-bottom: 20px;   
+}
+
+.user__component-channel h4{
+
+    color:var(--kakaoHeavyGrey);
+}
+
+.user__component-channel-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user__component-channel-list-left {
+    display: flex;
+    align-items: center;
+    
+}
+
+.user__component-channel-list-left-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.user__component-channel-list-left-img-chat {
+    width: 60px;
+    height: 60px;
+}
+
+.user__component-channel-list-right {
+    display: flex;
+    align-items: center;
+    color: var(--kakaoGrey);    
+}
+
+.user__component-channel-list-mid {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    font-size: 15px; 
+    font-weight: 900;   
+}
+
+.user__component-channel-list-left-mid {
+    width: 10px;
+    height: 10px;
+}
+
+.user__component-channel-list-mid h4:last-child {
+    font-size: 13px;
+    color: var(--kakaoGrey);
+}
+
+.chats__main {
+    margin: 10px var(--sideSpace);
+}
+
+.nav__link-alertnumber-chat {
+    width: 18px;
+    height: 18px;
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;        
+    font-size: smaller;
+}
+
+.user__component-channel-list-right-chat {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: var(--kakaoGrey);    
+}
+
+.user__component-channel-list-right-chat h4{
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: var(--kakaoGrey);    
+}
+
+.nav__link-alertnumber-chat-box {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;    
+}
+
+.find__main {
+    margin: 0 var(--sideSpace);
+}
+
+.find__main-header {
+    display: flex;
+    justify-content: space-evenly;    
+    border-bottom: 1px solid var(--kakaoLightGrey);
+    margin-bottom: 15px;
+}
+
+.find__main-header-child {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+}
+
+.find__main-header-child i{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.find__main-recommended-friends {
+    color: var(--kakaoHeavyGrey);
+    font-size: 13px;
+}
+
+.find__main-recommended-friends-content {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:15px;
+    border-bottom: 1px solid var(--kakaoLightGrey);
+}
+
+.find__main-openchat-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: var(--kakaoHeavyGrey);
+}
+
+.find__main-openchat-title-right {
+    display: flex;
+    color: var(--kakaoGrey);
+}
+
+.find__main-openchat-title-right h4{
+    margin-right: 5px;
+}
+
+.openchat-profile {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.find__main-openchat-content-lastline {
+    display: flex;
+}
+
+.find__main-openchat-content {
+    font-size: 15px;
+    color: var(--kakaoHeavyGrey);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--kakaoLightGrey);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.find__main-openchat-content-left {
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    justify-content: space-evenly;
+}
+
+.find__main-openchat-content-left h4:first-child{
+    font-size: 20px;
+    color: default;
+    font-weight: bolder;
+    
+}
+
+
+.openchat-profile-bigimg {
+    width: 90px;
+    height: 90px;
+    border-radius: 10%;
+}
+
+.find__main-openchat-content-lastline h4:nth-of-type(2){
+    color:rgb(255, 121, 143);
+    
+}
+

@@ -40,3 +40,15 @@ body {
     position: relative;
 }
 
+.nav__link-reddot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 33px;
+    right: 40px;
+}

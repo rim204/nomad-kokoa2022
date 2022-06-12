@@ -1,0 +1,38 @@
+.header__screen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px var(--sideSpace);    
+}
+
+.header__screen-left {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.header__screen-right span:nth-child(2) {
+    margin: 0px 10px;
+}
+
+.header__screen-right span:nth-child(3) {
+    margin-right: 10px;
+}
+
+.user__component-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: var(--kakaoLightGrey);
+    font-size: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.user__component-display i{
+    color: var(--kakaoLightGrey);
+    padding-right: 5px;
+}
+
+

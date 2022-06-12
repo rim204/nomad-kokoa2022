@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Find</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>98%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <header class="header__screen">
+      <div class="header__screen-left">
+        <h4>Find</h4>
+      </div>
+      <div class="header__screen-right">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+      </div>
+    </header>
+    <main class="find__main">
+      <header class="find__main-header">
+        <div class="find__main-header-child">
+          <i class="fa-solid fa-qrcode"></i><span>QR Code</span>
+        </div>
+        <div class="find__main-header-child">
+          <i class="fa-regular fa-address-book"></i><span>Add by</span
+          ><span> Contacts</span>
+        </div>
+        <div class="find__main-header-child">
+          <i class="fa-solid fa-fingerprint"></i><span>Add by ID</span>
+        </div>
+        <div class="find__main-header-child">
+          <i class="fa-regular fa-envelope"></i><span>Invite</span>
+        </div>
+      </header>
+      <recommended_friends class="find__main-recommended-friends"
+        ><h4>Recommended Friends</h4>
+        <div class="find__main-recommended-friends-content">
+          <h4>You have no recommended friends</h4>
+        </div>
+      </recommended_friends>
+      <openchat class="find__main-openchat">
+        <div class="find__main-openchat-title">
+          <div><h4>Open Chat</h4></div>
+          <div class="find__main-openchat-title-right">
+            <h4>Go to Openchat Home</h4>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+        <div class="find__main-openchat-content">
+          <div class="find__main-openchat-content-left">
+            <h4>#BTS</h4>
+            <h4>#BTS#ARMY#FRIENDS</h4>
+            <div class="find__main-openchat-content-lastline">
+              <img src="screenshots/profile.jpg" class="openchat-profile" />
+              <h4>802 members |</h4>
+              <h4>Active</h4>
+            </div>
+          </div>
+          <div class="find__main-openchat-content-right">
+            <div>
+              <img
+                src="screenshots/profile.jpg"
+                class="openchat-profile-bigimg"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="find__main-openchat-content">
+          <div class="find__main-openchat-content-left">
+            <h4>#BTS</h4>
+            <h4>#BTS#ARMY#FRIENDS</h4>
+            <div class="find__main-openchat-content-lastline">
+              <img src="screenshots/profile.jpg" class="openchat-profile" />
+              <h4>802 members |</h4>
+              <h4>Active</h4>
+            </div>
+          </div>
+          <div class="find__main-openchat-content-right">
+            <div>
+              <img
+                src="screenshots/profile.jpg"
+                class="openchat-profile-bigimg"
+              />
+            </div>
+          </div>
+        </div>
+      </openchat>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fa-regular fa-user fa-xl"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html"
+            ><i class="fa-solid fa-comment fa-xl"></i
+            ><span class="nav__link-alertnumber">1</span>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="search.html"
+            ><i class="fa-solid fa-magnifying-glass fa-xl"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html"
+            ><i class="fa-solid fa-ellipsis fa-xl"></i
+          ></a>
+          <span class="nav__link-reddot"></span>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/4a69f5f55e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,5 +1,7 @@
 :root {
     --kakaoYellow: #f7d500;
-    --kakaoGrey: rgba(0,0,0,0.4);
-    --kakaoLightGrey: rgba(0,0,0,0.1);
+    --kakaoGrey: rgba(0,0,0,0.2);
+    --kakaoLightGrey: rgba(0,0,0,0.05);
+    --kakaoHeavyGrey: rgba(0,0,0,0.7);
+    --sideSpace: 15px;
 }
