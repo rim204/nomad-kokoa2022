@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Chat</title>
+  </head>
+  <body>
+    <div class="status-bar status-bar-chat">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>98%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <header class="header__screen header__screen-settings header__chat">
+      <div class="header__screen-left header__screen-left-chat">
+        <i class="fa-solid fa-angle-left"></i>
+      </div>
+      <div
+        class="header__screen-mid header__screen-mid-settings header__screen-mid-chat"
+      >
+        Nicolas Serrano
+      </div>
+      <div class="header__screen-right header__screen-right-chat">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+    <main class="main__chat">
+      <div class="main__chat-body">
+        <div class="main__today-form">
+          <div class="main__today">Tuesday, June 30, 2020</div>
+        </div>
+        <div class="main__chat-first">
+          <div><img src="screenshots/profile.jpg " class="chat-img" /></div>
+          <div class="main__chat-content">
+            <span>Nicolas Serrano</span>
+            <div class="main__chat-form">
+              <div class="main__chat-talk">Hi!</div>
+              <div class="main__chat-time">21:27</div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="main__chat-form main__chat-form-second">
+            <div class="main__chat-talk main__chat-talk-second">What's up?</div>
+            <div class="main__chat-time">21:27</div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form class="nav nav-chat">
+      <div class="chat-form">
+        <div class="plustarget">
+          <i class="fa-regular fa-square-plus fa-xl"></i>
+        </div>
+        <input type="text" placeholder="Write a message..." />
+        <div class="chat-form-btn">
+          <div><i class="fa-regular fa-face-smile"></i></div>
+          <div class="arrowbtn"><i class="fa-solid fa-arrow-up fa-xl"></i></div>
+        </div>
+      </div>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/4a69f5f55e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -7,6 +7,8 @@
 @import "components/nav-bar.css";
 @import "components/status-bar.css";
 @import "components/user-component.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 
 
 body {
